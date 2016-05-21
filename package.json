@@ -23,7 +23,8 @@
     "jshint": "^2.9.2"
   },
   "scripts": {
-  	"start": "gulp"
+	"start": "npm install",
+  	"postinstall": "gulp"
   },
   "keywords": [
     "Elavarasan"
