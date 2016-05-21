@@ -61,21 +61,18 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="33" column="37" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="auth.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/server/config/auth.js">
+=======
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5770235">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state vertical-scroll-proportion="1.464752">
+              <caret line="33" column="37" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -83,6 +80,53 @@
       </file>
       <file leaf-file-name="gulpFile.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gulpFile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> 66b91b4727de5e0eedc06d0d70a48a7b9ab4b3f8
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file leaf-file-name="auth.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/config/auth.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5770235">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+=======
+      <file leaf-file-name="confirmation.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/partials/confirmation.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.65384614">
+              <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+              <folding>
+                <element signature="n#style#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+>>>>>>> 66b91b4727de5e0eedc06d0d70a48a7b9ab4b3f8
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file leaf-file-name="gulpFile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulpFile.js">
+=======
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.115385">
+              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="checkout.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/partials/checkout.html">
+>>>>>>> 66b91b4727de5e0eedc06d0d70a48a7b9ab4b3f8
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -103,6 +147,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
@@ -115,6 +160,8 @@
           </provider>
         </entry>
       </file>
+=======
+>>>>>>> 66b91b4727de5e0eedc06d0d70a48a7b9ab4b3f8
       <file leaf-file-name="orders.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/orders.json">
           <provider selected="true" editor-type-id="text-editor">
@@ -169,7 +216,10 @@
         <option value="$PROJECT_DIR$/client/js/controllers/confirmation-controller.js" />
         <option value="$PROJECT_DIR$/client/partials/confirmation.html" />
         <option value="$PROJECT_DIR$/package.json" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/server/config/auth.js" />
+=======
+>>>>>>> 66b91b4727de5e0eedc06d0d70a48a7b9ab4b3f8
       </list>
     </option>
   </component>
@@ -632,11 +682,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="-8.5">
           <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
           <folding>
             <marker date="1463839816344" expanded="true" signature="173:432" placeholder="{&quot;gulp&quot;: &quot;^3.9.1&quot;...}" />
           </folding>
+=======
+        <state vertical-scroll-proportion="-11.115385">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+          <folding />
+>>>>>>> 66b91b4727de5e0eedc06d0d70a48a7b9ab4b3f8
         </state>
       </provider>
     </entry>
@@ -658,12 +714,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/app.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.0">
+=======
+        <state vertical-scroll-proportion="1.464752">
+>>>>>>> 66b91b4727de5e0eedc06d0d70a48a7b9ab4b3f8
           <caret line="33" column="37" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/server/config/auth.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5770235">
@@ -672,5 +733,7 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 66b91b4727de5e0eedc06d0d70a48a7b9ab4b3f8
   </component>
 </project>
