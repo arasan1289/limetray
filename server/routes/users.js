@@ -47,7 +47,7 @@ router.get('/auth/facebook/callback',
   passport.authenticate('facebook', {
     failureRedirect: '#/home'
   },function(req,res){
-    res.redirect('http://hidden-castle-48503.herokuapp.com//#/confirmation')
+    res.redirect('http://hidden-castle-48503.herokuapp.com/#/confirmation')
   }));
 
 module.exports = router;
