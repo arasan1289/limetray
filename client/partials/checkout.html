@@ -1,0 +1,41 @@
+<div layout="row" layout-margin layout-padding layout-fill layout-align="center center" fles="75">
+  <p class="md-title" ng-if="orderDetails">This is your Reference Number {{orderDetails}}.Your Detailed Order</p>
+  <ul flex style="list-style: none">
+    <li ng-repeat="product in products">
+      <div layout="row" layout-fill layout-wrap layout-align="space-around center" class="checkoutPage">
+        <div flex="20">{{product.name}}</div>
+        <div flex="30">{{product.description}}</div>
+        <div flex="10"><span style="font-size: 22px;color:red;padding:10px" ng-click="decrementQty(product)" ng-if="!orderDetails">-</span>{{product.purchasedQuantity}}<span
+          style="font-size: 22px;color:blue;padding: 10px" ng-click="incrementQty(product)" ng-if="!orderDetails">+</span></div>
+        <div flex="20" class="float-right">{{product.price | currency:'&#8377;'}}</div>
+        <div flex="20" class="float-right">{{calculatePrice(product.price,product.purchasedQuantity) | currency:'&#8377;'}}
+          <md-button class="md-icon-button md-warn" ng-click="removeProduct(products,$index)">
+            <md-icon md-svg-icon="close"></md-icon>
+          </md-button>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div layout="row" layout-fill layout-wrap layout-align="space-around center" class="checkoutPage">
+        <div flex="60"></div>
+        <div flex="20">Sub Total</div>
+        <div flex="20">{{calculateSubTotal(products) | currency:'&#8377;'}}</div>
+      </div>
+    </li>
+    <li>
+      <div layout="row" layout-fill layout-wrap layout-align="space-around center" class="checkoutPage">
+        <div flex="60"></div>
+        <div flex="20">Tax (14.5%)</div>
+        <div flex="20">{{calculateTax(products) | currency:'&#8377;'}}</div>
+      </div>
+    </li>
+    <li>
+      <div layout="row" layout-fill layout-wrap layout-align="space-around center" class="checkoutPage">
+        <div flex="60"></div>
+        <div flex="20">Grand Total</div>
+        <div flex="20">{{calculateGrandTotal(products) | currency:'&#8377;'}}</div>
+      </div>
+    </li>
+  </ul>
+  <md-button class="md-raised md-primary" ng-click="loginModal($event,products)" ng-if="!orderReceived">Proceed To Payment</md-button>
+</div>

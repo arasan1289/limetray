@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Denim T-Shirt",
+    "quantityAvailable": "100",
+    "description": "Denim T-Shirt size M Red",
+    "category": "Textile",
+    "price": 1200,
+    "SKUCode": "1",
+    "productImage": ""
+  },
+  {
+    "name": "Denim T-Shirt",
+    "quantityAvailable": "100",
+    "description": "Denim T-Shirt size S Red",
+    "category": "Textile",
+    "price": 1500,
+    "SKUCode": "2",
+    "productImage": ""
+  },
+  {
+    "name": "Denim T-Shirt",
+    "quantityAvailable": "100",
+    "description": "Denim T-Shirt size XL Red",
+    "category": "Textile",
+    "price": 1800,
+    "SKUCode": "3",
+    "productImage": ""
+  },
+  {
+    "name": "Denim T-Shirt",
+    "quantityAvailable": "100",
+    "description": "Denim T-Shirt size L Red",
+    "category": "Textile",
+    "price": 2000,
+    "SKUCode": "4",
+    "productImage": ""
+  },
+  {
+    "name": "Denim T-Shirt",
+    "quantityAvailable": "100",
+    "description": "Denim T-Shirt size M Red",
+    "category": "Textile",
+    "price": 1000,
+    "SKUCode": "5",
+    "productImage": ""
+  },
+  {
+    "name": "Denim T-Shirt",
+    "quantityAvailable": "100",
+    "description": "Denim T-Shirt size S Green",
+    "category": "Textile",
+    "price": 1500,
+    "SKUCode": "7",
+    "productImage": ""
+  },
+  {
+    "name": "Denim T-Shirt",
+    "quantityAvailable": "100",
+    "description": "Denim T-Shirt size XL Green",
+    "category": "Textile",
+    "price": 1800,
+    "SKUCode": "8",
+    "productImage": ""
+  },
+  {
+    "name": "Denim T-Shirt",
+    "quantityAvailable": "100",
+    "description": "Denim T-Shirt size L Green",
+    "category": "Textile",
+    "price": 2000,
+    "SKUCode": "9",
+    "productImage": ""
+  },
+  {
+    "name": "Denim T-Shirt",
+    "quantityAvailable": "100",
+    "description": "Denim T-Shirt size M Green",
+    "category": "Textile",
+    "price": 1000,
+    "SKUCode": "10",
+    "productImage": ""
+  },
+  {
+    "name": "Denim T-Shirt",
+    "quantityAvailable": "100",
+    "description": "Denim T-Shirt size M",
+    "category": "Textile",
+    "price": 200,
+    "SKUCode": "6",
+    "productImage": ""
+  },
+  {
+    "name": "Philips Headphone",
+    "quantityAvailable": "100",
+    "description": "Philips headphone White",
+    "category": "Headphone",
+    "price": 200,
+    "SKUCode": "11",
+    "productImage": ""
+  },
+  {
+    "name": "Skullcandy Headhone",
+    "quantityAvailable": "100",
+    "description": "Skullcandy headphone White",
+    "category": "Headphone",
+    "price": 800,
+    "SKUCode": "12",
+    "productImage": ""
+  },
+  {
+    "name": "Philips Headphone",
+    "quantityAvailable": "100",
+    "description": "Philips headphone Red",
+    "category": "Headphone",
+    "price": 200,
+    "SKUCode": "13",
+    "productImage": ""
+  },
+  {
+    "name": "Skullcandy Headhone",
+    "quantityAvailable": "100",
+    "description": "Skullcandy headphone Red",
+    "category": "Headphone",
+    "price": 800,
+    "SKUCode": "14",
+    "productImage": ""
+  },
+  {
+    "name": "Philips Headphone",
+    "quantityAvailable": "100",
+    "description": "Philips headphone Black",
+    "category": "Headphone",
+    "price": 200,
+    "SKUCode": "15",
+    "productImage": ""
+  },
+  {
+    "name": "Skullcandy Headhone",
+    "quantityAvailable": "100",
+    "description": "Skullcandy headphone Block",
+    "category": "Headphone",
+    "price": 800,
+    "SKUCode": "16",
+    "productImage": ""
+  },
+  {
+    "name": "Dell Laptop",
+    "quantityAvailable": "100",
+    "description": "Dell laptop 12.5 inches",
+    "category": "Laptop",
+    "price": 17500,
+    "SKUCode": "17",
+    "productImage": ""
+  },
+  {
+    "name": "Dell Laptop",
+    "quantityAvailable": "100",
+    "description": "Dell laptop 15 inches",
+    "category": "Laptop",
+    "price": 20000,
+    "SKUCode": "18",
+    "productImage": ""
+  },
+  {
+    "name": "Dell Laptop",
+    "quantityAvailable": "100",
+    "description": "Dell laptop 17 inches",
+    "category": "Laptop",
+    "price": 22500,
+    "SKUCode": "19",
+    "productImage": ""
+  },
+  {
+    "name": "Macbook Pro",
+    "quantityAvailable": "100",
+    "description": "Macbook Pro 15 inches",
+    "category": "Laptop",
+    "price": 75000,
+    "SKUCode": "20",
+    "productImage": ""
+  }
+]

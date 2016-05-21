@@ -1,0 +1,77 @@
+<md-content>
+  <div layout="row">
+    <div layout="column" layout-fill layout-margin layout-padding>
+      <md-card style="width: 300px;" ng-if="purchasedProducts.length>0">
+        <span class="md-title">Cart Details</span>
+        <md-card-header ng-repeat="purchasedProduct in purchasedProducts" style="padding: 8px">
+          <md-card-header-text>
+            <div style="width:100%" ng-class="{'horline':!$last}">
+              <div class="leftpanel">
+                <p style="margin: 0">
+                  <span class="md-subhead">{{purchasedProduct.name}}</span>
+                  <span style="float: right;">{{purchasedProduct.price | currency:'&#8377;' }}</span>
+                </p>
+
+                <p style="margin: 0"><span class="md-caption">{{purchasedProduct.description}}</span></p>
+              </div>
+              <div class="rightpanel float-right">
+                <md-button class="md-icon-button md-warn" aria-label="Remove"
+                           ng-click="removeFromCart(purchasedProducts,purchasedProduct,products,$index)">
+                  <md-icon md-svg-icon="close"></md-icon>
+                </md-button>
+              </div>
+            </div>
+          </md-card-header-text>
+        </md-card-header>
+        <div class="md-actions" layout="row" layout-align="end center">
+          <md-button ng-click="checkout(purchasedProducts)">
+            <md-badge>{{purchasedProducts.length}}</md-badge>
+            <md-icon md-svg-icon="cart-outline">
+            </md-icon>
+          </md-button>
+        </div>
+      </md-card>
+      <md-card style="width: 300px;">
+        <md-card-header style="padding: 8px" ng-click="reorderList(products,purchasedProducts,'All')">
+          <md-card-header-text>
+            <span class="md-subhead">All</span>
+          </md-card-header-text>
+        </md-card-header>
+        <md-card-header ng-repeat="(key,value) in products | groupBy: 'category'" style="padding: 8px"
+                        ng-click="reorderList(products,purchasedProducts,key)">
+          <md-card-header-text>
+            <span class="md-subhead">{{key}}</span>
+          </md-card-header-text>
+        </md-card-header>
+      </md-card>
+    </div>
+    <div class='md-padding' layout="row" layout-wrap>
+      <div layout="row" class="sortingLinks" layout-fill layout-margin layout-fill layout-align="space-around center">
+        <div ng-repeat="sortinglink in sortingLinks" ng-click="select(sortinglink)"
+             ng-class="{active: isActive(sortinglink)}">
+          {{sortinglink.name}}
+        </div>
+      </div>
+      <md-card style="width: 300px;" ng-repeat="product in products | orderBy:predicate:reverse"
+               ng-show="product.showList">
+        <md-card-header>
+          <md-card-header-text>
+          <span class="md-title">{{product.name | limitTo:15}}<span
+            style="float: right">{{product.price | currency:'&#8377;' }}</span> </span>
+            <span class="md-subhead">in {{product.category}}</span>
+          </md-card-header-text>
+        </md-card-header>
+        <img src="http://placehold.it/150x150" class="md-card-image" alt="user avatar">
+
+        <div class="md-actions" layout="row" layout-align="end center">
+          <md-button ng-click="addToCart(purchasedProducts,product,products)">
+            <md-icon md-svg-icon="cart-plus"></md-icon>
+          </md-button>
+        </div>
+        <md-card-content>
+          <p>{{product.description}}</p>
+        </md-card-content>
+      </md-card>
+    </div>
+  </div>
+</md-content>

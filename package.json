@@ -1,0 +1,33 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "limetray assignment",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "cookie-parser": "^1.4.1",
+    "debug": "^2.2.0",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "morgan": "^1.7.0",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.1",
+    "passport-google-oauth": "^1.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-nodemon": "^2.0.7",
+    "gulp-watch": "^4.3.5",
+    "jshint": "^2.9.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Elavarasan"
+  ],
+  "author": "Elavarasan",
+  "license": "MIT"
+}

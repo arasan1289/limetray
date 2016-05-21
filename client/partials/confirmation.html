@@ -1,0 +1,36 @@
+<div layout="column" layout-margin layout-padding layout-fill layout-align="space-around stretch" fles="75">
+  <p class="md-title text-center">This is your Reference Number {{orderId}}.Your Detailed Order</p>
+  <ul flex style="list-style: none">
+    <li ng-repeat="product in products.productsOrdered">
+      <div layout="row" layout-fill layout-wrap layout-align="space-around center" class="checkoutPage">
+        <div flex="20">{{product.name}}</div>
+        <div flex="30">{{product.description}}</div>
+        <div flex="10">{{product.purchasedQuantity}}</div>
+        <div flex="20" class="float-right">{{product.price | currency:'&#8377;'}}</div>
+        <div flex="20" class="float-right">{{calculatePrice(product.price,product.purchasedQuantity) | currency:'&#8377;'}}
+        </div>
+      </div>
+    </li>
+    <li>
+      <div layout="row" layout-fill layout-wrap layout-align="space-around center" class="checkoutPage">
+        <div flex="60"></div>
+        <div flex="20">Sub Total</div>
+        <div flex="20">{{products.orderSubTotal | currency:'&#8377;'}}</div>
+      </div>
+    </li>
+    <li>
+      <div layout="row" layout-fill layout-wrap layout-align="space-around center" class="checkoutPage">
+        <div flex="60"></div>
+        <div flex="20">Tax (14.5%)</div>
+        <div flex="20">{{products.orderTaxAmount | currency:'&#8377;'}}</div>
+      </div>
+    </li>
+    <li>
+      <div layout="row" layout-fill layout-wrap layout-align="space-around center" class="checkoutPage">
+        <div flex="60"></div>
+        <div flex="20">Grand Total</div>
+        <div flex="20">{{products.orderGrandTotal | currency:'&#8377;'}}</div>
+      </div>
+    </li>
+  </ul>
+</div>

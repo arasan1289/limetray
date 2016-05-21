@@ -1,0 +1,47 @@
+<md-dialog aria-label="Login" flex="75">
+  <form name="loginForm">
+    <md-toolbar>
+      <div class="md-toolbar-tools">
+        <h2>Login</h2>
+        <span flex></span>
+        <md-button class="md-icon-button" ng-click="cancel()">
+          <md-icon md-svg-icon="close" aria-label="Close dialog"></md-icon>
+        </md-button>
+      </div>
+    </md-toolbar>
+    <md-dialog-content>
+      <div class="md-dialog-content">
+        <md-input-container class="md-block">
+          <label>Email</label>
+          <input required name="email" ng-model="user.email" type="email">
+
+          <div ng-messages="loginForm.email.$error">
+            <div ng-message="required">This is required.</div>
+          </div>
+        </md-input-container>
+        <md-input-container class="md-block">
+          <label>Password</label>
+          <input required name="password" ng-model="user.password" type="password">
+
+          <div ng-messages="loginForm.password.$error">
+            <div ng-message="required">This is required.</div>
+          </div>
+        </md-input-container>
+      </div>
+      <div layout="column">
+        <div layout="row" layout-align="space-around center">
+          <md-button class="md-raised md-primary" ng-click="login(user)">
+            Login
+          </md-button>
+          <hr/>
+          <md-button class="md-fab" href="/api/auth/google">
+            <md-icon md-svg-icon="google"></md-icon>
+          </md-button>
+          <md-button class="md-fab md-primary" href="/api/auth/facebook">
+            <md-icon md-svg-icon="facebook"></md-icon>
+          </md-button>
+        </div>
+      </div>
+    </md-dialog-content>
+  </form>
+</md-dialog>

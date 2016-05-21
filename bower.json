@@ -1,0 +1,15 @@
+{
+  "name": "assignment",
+  "version": "0.1.0",
+  "description": "A MEAN  App",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.5.5",
+    "angular-messages": "~1.5.5",
+    "angular-resource": "~1.5.5",
+    "angular-animate": "~1.5.5",
+    "angular-ui-router": "~0.3.0",
+    "angular-material": "~1.0.8",
+    "angular-filter": "~0.5.8"
+  }
+}
