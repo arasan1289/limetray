@@ -38,15 +38,16 @@ router.get('/auth/google/callback',
   passport.authenticate('google', {
     failureRedirect: '#/home'
   }), function (req, res) {
-    res.redirect('http://localhost:3000/#/confirmation')
+    res.redirect('http://hidden-castle-48503.herokuapp.com//#/confirmation')
   });
 router.get('/auth/facebook', passport.authenticate('facebook', {scope: ['public_profile', 'email']}));
 
 // the callback after google has authenticated the user
 router.get('/auth/facebook/callback',
   passport.authenticate('facebook', {
-    successRedirect: '#/home',
-    failureRedirect: '#/confirmation'
+    failureRedirect: '#/home'
+  },function(req,res){
+    res.redirect('http://hidden-castle-48503.herokuapp.com//#/confirmation')
   }));
 
 module.exports = router;
